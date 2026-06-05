@@ -12,10 +12,10 @@
         <meta name="author" content="Serge Tahé">
       
       
-        <link rel="canonical" href="https://stahe.github.io/es-java-spring-dec-2015/td-exposicion-web-de-la-capa-de-negocio.html">
+        <link rel="canonical" href="https://stahe.github.io/es-java-spring-dec-2015/td-exposicion-en-la-web-de-la-capa-metier.html">
       
       
-        <link rel="prev" href="curso-exposicion-de-una-base-de-datos-en-la-web-con-spring-mvc.html">
+        <link rel="prev" href="cours-exponer-una-base-de-datos-en-la-web-con-spring-mvc.html">
       
       
         <link rel="next" href="td-creacion-de-un-cliente-para-el-servicio-web.html">
@@ -29,7 +29,7 @@
     
     
       
-        <title>14. [TD]: Exposición web de la capa [de negocio] - Introducción al lenguaje Java y al ecosistema Spring</title>
+        <title>14. [TD]: Exposición en la web de la capa [metier] - Introducción al lenguaje Java y al ecosistema Spring</title>
       
     
     
@@ -56,6 +56,8 @@
     
     
       <link rel="stylesheet" href="stylesheets/focus.css">
+    
+      <link rel="stylesheet" href="stylesheets/bidi.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -92,7 +94,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#14-td-exposicion-web-de-la-capa-de-negocio" class="md-skip">
+        <a href="#14-td-exposicion-en-la-web-de-la-capa-metier" class="md-skip">
           Skip to content
         </a>
       
@@ -128,7 +130,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              14. [TD]: Exposición web de la capa [de negocio]
+              14. [TD]: Exposición en la web de la capa [metier]
             
           </span>
         </div>
@@ -330,14 +332,14 @@
   
   
     <li class="md-nav__item">
-      <a href="tarea-el-problema.html" class="md-nav__link">
+      <a href="td-el-problema.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    2. [Tarea]: El problema
+    2. [TD]: El problema
   
 
     
@@ -411,14 +413,14 @@
   
   
     <li class="md-nav__item">
-      <a href="curso-introduccion-al-marco-spring.html" class="md-nav__link">
+      <a href="cours-introduccion-al-framework-spring.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    5. [Curso]: Introducción al marco Spring
+    5. [Cours]: Introducción al framework Spring
   
 
     
@@ -438,14 +440,14 @@
   
   
     <li class="md-nav__item">
-      <a href="curso-introduccion-a-la-api-jdbc.html" class="md-nav__link">
+      <a href="cours-introduccion-a-api-jdbc.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    6. [Curso]: Introducción a la API JDBC
+    6. [Cours]: Introducción a API JDBC
   
 
     
@@ -465,14 +467,14 @@
   
   
     <li class="md-nav__item">
-      <a href="td-implementacion-de-la-capa-dao-del-td-utilizando-la-api-jdbc.html" class="md-nav__link">
+      <a href="td-implementacion-de-la-capa-dao-de-td-con-api-jdbc.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    7. [TD]: Implementación de la capa [DAO] del TD utilizando la API JDBC
+    7. [TD]: Implementación de la capa [DAO] de TD con API JDBC
   
 
     
@@ -492,14 +494,14 @@
   
   
     <li class="md-nav__item">
-      <a href="td-la-capa-business.html" class="md-nav__link">
+      <a href="td-la-capa-metier.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    8. [TD]: La capa [business]
+    8. [TD]: La capa [metier]
   
 
     
@@ -546,14 +548,14 @@
   
   
     <li class="md-nav__item">
-      <a href="tarea-implementacion-de-la-capa-ui-utilizando-una-interfaz-swing-.html" class="md-nav__link">
+      <a href="td-implementacion-de-la-capa-ui-con-una-interfaz-swing-de-tipo--.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    10. [Tarea]: Implementación de la capa [ui] utilizando una interfaz Swing: 
+    10. [TD]: Implementación de la capa [ui] con una interfaz Swing de tipo « »
   
 
     
@@ -573,14 +575,14 @@
   
   
     <li class="md-nav__item">
-      <a href="curso-gestion-de-bases-de-datos-relacionales-con-spring-data.html" class="md-nav__link">
+      <a href="cours-gestion-de-bases-de-datos-relacionales-con-spring-data.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    11. [Curso]: Gestión de bases de datos relacionales con Spring Data
+    11. [Cours]: Gestión de bases de datos relacionales con Spring Data
   
 
     
@@ -600,14 +602,14 @@
   
   
     <li class="md-nav__item">
-      <a href="td-implementacion-de-la-capa-dao-del-td-utilizando-spring-data.html" class="md-nav__link">
+      <a href="td-implementacion-de-la-capa-dao-de-td-con-spring-data.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    12. [TD]: Implementación de la capa [DAO] del TD utilizando [Spring Data]
+    12. [TD]: Implementación de la capa [DAO] de TD con [Spring Data]
   
 
     
@@ -627,14 +629,14 @@
   
   
     <li class="md-nav__item">
-      <a href="curso-exposicion-de-una-base-de-datos-en-la-web-con-spring-mvc.html" class="md-nav__link">
+      <a href="cours-exponer-una-base-de-datos-en-la-web-con-spring-mvc.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    13. [Curso]: Exposición de una base de datos en la web con Spring MVC
+    13. [Cours]: Exponer una base de datos en la web con Spring MVC
   
 
     
@@ -670,7 +672,7 @@
   <span class="md-ellipsis">
     
   
-    14. [TD]: Exposición web de la capa [de negocio]
+    14. [TD]: Exposición en la web de la capa [metier]
   
 
     
@@ -681,14 +683,14 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="td-exposicion-web-de-la-capa-de-negocio.html" class="md-nav__link md-nav__link--active">
+      <a href="td-exposicion-en-la-web-de-la-capa-metier.html" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
     
   
-    14. [TD]: Exposición web de la capa [de negocio]
+    14. [TD]: Exposición en la web de la capa [metier]
   
 
     
@@ -725,15 +727,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#142-el-proyecto-eclipse-para-la-capa-business" class="md-nav__link">
+  <a href="#142-el-proyecto-eclipse-de-la-capa-metier" class="md-nav__link">
     <span class="md-ellipsis">
       
-        14.2. El proyecto Eclipse para la capa [business]
+        14.2. El proyecto Eclipse de la capa [métier]
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="14.2. El proyecto Eclipse para la capa [business]">
+    <nav class="md-nav" aria-label="14.2. El proyecto Eclipse de la capa [métier]">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -759,10 +761,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#1423-implementacion-de-la-capa-business" class="md-nav__link">
+  <a href="#1423-implementacion-de-la-capa-metier" class="md-nav__link">
     <span class="md-ellipsis">
       
-        14.2.3. Implementación de la capa [business]
+        14.2.3. Implementación de la capa [métier]
       
     </span>
   </a>
@@ -770,10 +772,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#1424-pruebas-de-la-capa-de-negocio" class="md-nav__link">
+  <a href="#1424-prueba-de-la-capa-metier" class="md-nav__link">
     <span class="md-ellipsis">
       
-        14.2.4. Pruebas de la capa [de negocio]
+        14.2.4. Prueba de la capa [métier]
       
     </span>
   </a>
@@ -786,10 +788,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#143-el-proyecto-eclipse-para-la-capa-web" class="md-nav__link">
+  <a href="#143-el-proyecto-eclipse-de-la-capa-web" class="md-nav__link">
     <span class="md-ellipsis">
       
-        14.3. El proyecto Eclipse para la capa [web]
+        14.3. El proyecto Eclipse de la capa [web]
       
     </span>
   </a>
@@ -830,10 +832,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#147-la-respuesta-de-las-url-del-servicio-web" class="md-nav__link">
+  <a href="#147-la-respuesta-de-url-del-servicio-web" class="md-nav__link">
     <span class="md-ellipsis">
       
-        14.7. La respuesta de las URL del servicio web
+        14.7. La respuesta de URL del servicio web
       
     </span>
   </a>
@@ -841,10 +843,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#148-implementacion-del-servicio-web-json" class="md-nav__link">
+  <a href="#148-la-implementacion-del-servicio-web-json" class="md-nav__link">
     <span class="md-ellipsis">
       
-        14.8. Implementación del servicio web / JSON
+        14.8. La implementación del servicio web / jSON
       
     </span>
   </a>
@@ -884,7 +886,7 @@
   <span class="md-ellipsis">
     
   
-    15. [TD]: Creación de un cliente para el servicio web
+    15. [TD]: creación de un cliente para el servicio web
   
 
     
@@ -904,14 +906,14 @@
   
   
     <li class="md-nav__item">
-      <a href="curso-proteger-el-acceso-a-un-servicio-web-con-spring-security.html" class="md-nav__link">
+      <a href="cours-proteger-el-acceso-a-un-servicio-web-con-spring-security.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    16. [Curso]: Proteger el acceso a un servicio web con Spring Security
+    16. [Cours]: Proteger el acceso a un servicio web con Spring Security
   
 
     
@@ -931,14 +933,14 @@
   
   
     <li class="md-nav__item">
-      <a href="td-proteccion-del-servidor-web--json-para-elecciones.html" class="md-nav__link">
+      <a href="td-seguridad-del-servidor-web--json-de-las-elecciones.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    17. [TD]: Protección del servidor web / JSON para elecciones
+    17. [TD]: seguridad del servidor web / jSON de las elecciones
   
 
     
@@ -958,14 +960,14 @@
   
   
     <li class="md-nav__item">
-      <a href="curso-intercambio-de-recursos-entre-origenes.html" class="md-nav__link">
+      <a href="cours-gestion-de-accesos-entre-dominios.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    18. [Curso]: Intercambio de recursos entre orígenes
+    18. [Cours]: Gestión de accesos entre dominios
   
 
     
@@ -985,14 +987,14 @@
   
   
     <li class="md-nav__item">
-      <a href="td-intercambio-de-recursos-entre-origenes-cors.html" class="md-nav__link">
+      <a href="td-elecciones-con-solicitudes-entre-dominios.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    19. [TD] Intercambio de recursos entre orígenes (CORS)
+    19. [TD] Elecciones con solicitudes entre dominios
   
 
     
@@ -1103,31 +1105,31 @@
 
 
 
-<p><a id="refheading18028265679331"></a></p>
-<h1 id="14-td-exposicion-web-de-la-capa-de-negocio">14. <span style="color: #365f91">[TD]: Exposición web de la capa [de negocio]</span></h1>
-<p><strong>Palabras clave</strong>: arquitectura multicapa, Spring, inyección de dependencias, servicio web / JSON, cliente / servidor.</p>
+<p><span id="refheading18028265679331" name="refheading18028265679331" class="odt-bookmark-anchor"></span></p>
+<h1 id="14-td-exposicion-en-la-web-de-la-capa-metier">14. <span style="color: #365f91">[TD]: Exposición en la web de la capa [metier]</span></h1>
+<p><strong>Palabras clave</strong>: arquitectura multicapa, Spring, inyección de dependencias, servicio web / jSON, cliente / servidor.</p>
 <p>Volvamos a la arquitectura actual de la aplicación TD:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004D20000010079CD4A52.png" width="617" height="128" style="display:inline-block; margin:4px;width:16.325cm;height:3.387cm;" class="odt-zoomable" data-zoom-src="images/10000000000004D20000010079CD4A52.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000004D20000010079CD4A52.png" width="617" height="128" style="display:inline-block; margin:4px;width:16.325cm;height:3.387cm;" class="odt-zoomable" data-zoom-src="images/10000000000004D20000010079CD4A52.png" /></td></tr></table>
 
-<p>Evolucionaremos esta arquitectura hasta obtener lo siguiente:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004D8000001138084BFB3.png" width="620" height="137" style="display:inline-block; margin:4px;width:16.404cm;height:3.637cm;" class="odt-zoomable" data-zoom-src="images/10000000000004D8000001138084BFB3.png" /></td></tr></table>
+<p>Vamos a hacer evolucionar esta arquitectura hacia la siguiente:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000004D8000001138084BFB3.png" width="620" height="137" style="display:inline-block; margin:4px;width:16.404cm;height:3.637cm;" class="odt-zoomable" data-zoom-src="images/10000000000004D8000001138084BFB3.png" /></td></tr></table>
 
-<p>con el fin de exponer la interfaz [IMetier] de la capa de negocio en la web. Para ello, seguiremos la metodología descrita en <a href="#refheading416278986338762"><u><span style="color: #0563c1">la sección 13.5</span></u></a>.</p>
-<p><a id="refheading1217181037674463"></a></p>
+<p>con el fin de exponer en la web la interfaz [IMetier] de la capa de negocio. Para ello, seguiremos la metodología descrita en el apartado<a href="cours-exponer-una-base-de-datos-en-la-web-con-spring-mvc.html#refheading416278986338762"><u><span style="color: #0563c1"> 13.5</span></u></a>.</p>
+<p><span id="refheading1217181037674463" name="refheading1217181037674463" class="odt-bookmark-anchor"></span></p>
 <h2 id="141-soporte">14.1. <span style="color: #4f81bd">Soporte</span></h2>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000001060000007DF83B60DF.png" width="183" height="87" style="display:inline-block; margin:4px;width:4.851cm;height:2.314cm;" class="odt-zoomable" data-zoom-src="images/10000000000001060000007DF83B60DF.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000001060000007DF83B60DF.png" width="183" height="87" style="display:inline-block; margin:4px;width:4.851cm;height:2.314cm;" class="odt-zoomable" data-zoom-src="images/10000000000001060000007DF83B60DF.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p><a id="refheading987748731570901"></a></p>
+<p><span id="refheading987748731570901" name="refheading987748731570901" class="odt-bookmark-anchor"></span></p>
 <p>Los proyectos de este capítulo se encuentran en la carpeta [support / chap-14].</p>
-<p><a id="refheading180302656793311"></a></p>
-<h2 id="142-el-proyecto-eclipse-para-la-capa-business">14.2. <span style="color: #4f81bd">El proyecto Eclipse para la capa [business]</span></h2>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004DA000000FB45BFD6B4.png" width="621" height="126" style="display:inline-block; margin:4px;width:16.431cm;height:3.321cm;" class="odt-zoomable" data-zoom-src="images/10000000000004DA000000FB45BFD6B4.png" /></td></tr></table>
+<p><span id="refheading180302656793311" name="refheading180302656793311" class="odt-bookmark-anchor"></span></p>
+<h2 id="142-el-proyecto-eclipse-de-la-capa-metier">14.2. <span style="color: #4f81bd"><strong>El proyecto Eclipse de la capa [métier]</strong></span></h2>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000004DA000000FB45BFD6B4.png" width="621" height="126" style="display:inline-block; margin:4px;width:16.431cm;height:3.321cm;" class="odt-zoomable" data-zoom-src="images/10000000000004DA000000FB45BFD6B4.png" /></td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000118000000EA47979940.png" width="196" height="164" style="display:inline-block; margin:4px;width:5.181cm;height:4.33cm;" class="odt-zoomable" data-zoom-src="images/1000000000000118000000EA47979940.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000118000000EA47979940.png" width="196" height="164" style="display:inline-block; margin:4px;width:5.181cm;height:4.33cm;" class="odt-zoomable" data-zoom-src="images/1000000000000118000000EA47979940.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p><a id="refheading251900391218965"></a></p>
+<p><span id="refheading251900391218965" name="refheading251900391218965" class="odt-bookmark-anchor"></span></p>
 <h3 id="1421-configuracion-de-maven">14.2.1. <span style="color: #4f81bd">Configuración de Maven</span></h3>
-<p>El proyecto de la capa [business] es un proyecto Maven configurado mediante el siguiente archivo [pom.xml]:</p>
+<p>El proyecto de la capa [métier] es un proyecto Maven configurado por el siguiente archivo [pom.xml]:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-xml">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;?</span><span style="color:#3f7f7f">xml</span> <span style="color:#7f007f">version</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;1.0&quot;</span> <span style="color:#7f007f">encoding</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;UTF-8&quot;</span><span style="color:#008080">?&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">project</span> <span style="color:#7f007f">xmlns</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://maven.apache.org/POM/4.0.0&quot;</span></span></span>
@@ -1138,14 +1140,14 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span><span style="color:#000000">elections-metier-dao-spring-data</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span><span style="color:#000000">0.1.0</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">&lt;!-- dependencies --&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">&lt;!-- dependencias --&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">parent</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span><span style="color:#000000">org.springframework.boot</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span><span style="color:#000000">spring-boot-starter-parent</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span><span style="color:#000000">1.2.7.RELEASE</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">parent</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">dependencies</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">&lt;!-- layer [DAO] --&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">&lt;!-- capa [DAO] --&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">dependency</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span><span style="color:#000000">istia.st.elections</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span><span style="color:#000000">elections-dao-spring-data-01</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span></span></span>
@@ -1157,7 +1159,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span><span style="color:#000000">spring-boot</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">scope</span><span style="color:#008080">&gt;</span><span style="color:#000000">test</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">scope</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">dependency</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">&lt;!-- Spring Boot Test --&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">&lt;!-- Prueba de Spring Boot --&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">dependency</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span><span style="color:#000000">org.springframework.boot</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span><span style="color:#000000">spring-boot-starter-test</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span></span></span>
@@ -1166,7 +1168,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">dependencies</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">properties</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">&lt;!-- use UTF-8 for everything --&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">&lt;!-- utilice UTF-8 para todo --&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">project.build.sourceEncoding</span><span style="color:#008080">&gt;</span><span style="color:#000000">UTF-8</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">project.build.sourceEncoding</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">java.version</span><span style="color:#008080">&gt;</span><span style="color:#000000">1.8</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">java.version</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">properties</span><span style="color:#008080">&gt;</span></span></span>
@@ -1184,17 +1186,17 @@
 </code></pre></div>
 
 <ul>
-  <li>líneas 18–22: la dependencia de la capa [DAO] creada en <a href="#refheading2192602014630537"><u><span style="color: #0563c1">el párrafo 12</span></u></a>;
+  <li>líneas 18-22: la dependencia de la capa [DAO] creada en el apartado<a href="td-implementacion-de-la-capa-dao-de-td-con-spring-data.html#refheading2192602014630537"><u><span style="color: #0563c1"> 12</span></u></a>;
   </li>
-  <li>líneas 23–34: las dependencias necesarias para las pruebas;
+  <li>líneas 23-34: las dependencias necesarias para las pruebas;
   </li>
 </ul>
-<p><a id="refheading251902391218965"></a></p>
+<p><span id="refheading251902391218965" name="refheading251902391218965" class="odt-bookmark-anchor"></span></p>
 <h3 id="1422-configuracion-de-spring">14.2.2. <span style="color: #4f81bd">Configuración de Spring</span></h3>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000011700000083837432B9.png" width="196" height="92" style="display:inline-block; margin:4px;width:5.181cm;height:2.432cm;" class="odt-zoomable" data-zoom-src="images/100000000000011700000083837432B9.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000011700000083837432B9.png" width="196" height="92" style="display:inline-block; margin:4px;width:5.181cm;height:2.432cm;" class="odt-zoomable" data-zoom-src="images/100000000000011700000083837432B9.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>El proyecto de la capa [business] es un proyecto Spring configurado mediante el siguiente archivo [MetierConfig]:</p>
-<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-python">
+<p>El proyecto de la capa [métier] es un proyecto Spring configurado por el siguiente archivo [MetierConfig]:</p>
+<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> elections.metier.config;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.context.annotation.ComponentScan;</span></span></span>
@@ -1209,51 +1211,51 @@
 </code></pre></div>
 
 <ul>
-  <li>Aquí no utilizamos la anotación [@Configuration], que convertiría a la clase en una clase de configuración de Spring. La presencia de las anotaciones [@Import] y [@ComponentScan] la convierte automáticamente en una clase de configuración;
+  <li>Aquí no utilizamos la notación [@Configuration], que convierte la clase en una clase de configuración de Spring. La presencia de las anotaciones [@Import, @ComponentScan] la convierte automáticamente en una clase de configuración;
   </li>
-  <li>Línea 8: Importamos el archivo de configuración desde la capa [DAO]. De este modo, tenemos acceso a todos los beans definidos por este archivo;
+  <li>línea 8: importamos el archivo de configuración de la capa [DAO]. De este modo, disponemos de todos los beans definidos por este archivo;
   </li>
-  <li>Línea 9: El resto de beans de Spring se encuentran en la carpeta [<span style="color: #2a00ff">elections.metier.service</span>];
+  <li>línea 9: hay que buscar otros beans de Spring en la carpeta [elections.metier.service];
   </li>
 </ul>
-<p><a id="refheading251904391218965"></a></p>
-<h3 id="1423-implementacion-de-la-capa-business">14.2.3. <span style="color: #4f81bd">Implementación de la capa [business]</span></h3>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000010C0000008FFD111688.png" width="187" height="100" style="display:inline-block; margin:4px;width:4.96cm;height:2.648cm;" class="odt-zoomable" data-zoom-src="images/100000000000010C0000008FFD111688.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p><span id="refheading251904391218965" name="refheading251904391218965" class="odt-bookmark-anchor"></span></p>
+<h3 id="1423-implementacion-de-la-capa-metier">14.2.3. <span style="color: #4f81bd">Implementación de la capa [métier]</span></h3>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000010C0000008FFD111688.png" width="187" height="100" style="display:inline-block; margin:4px;width:4.96cm;height:2.648cm;" class="odt-zoomable" data-zoom-src="images/100000000000010C0000008FFD111688.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>La implementación de la capa [de negocio] es la definida en <a href="#refheading318251812363491"><u><span style="color: #0563c1">la sección 8.5</span></u></a>.</p>
-<p><a id="refheading251906391218965"></a></p>
-<h3 id="1424-pruebas-de-la-capa-de-negocio">14.2.4. <span style="color: #4f81bd">Pruebas de la capa [de negocio]</span></h3>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000010500000096106C9004.png" width="183" height="105" style="display:inline-block; margin:4px;width:4.83cm;height:2.776cm;" class="odt-zoomable" data-zoom-src="images/100000000000010500000096106C9004.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p>La implementación de la capa [métier] es la que se definió en el apartado<a href="td-la-capa-metier.html#refheading318251812363491"><u><span style="color: #0563c1"> 8.5</span></u></a>.</p>
+<p><span id="refheading251906391218965" name="refheading251906391218965" class="odt-bookmark-anchor"></span></p>
+<h3 id="1424-prueba-de-la-capa-metier">14.2.4. <span style="color: #4f81bd">Prueba de la capa [métier]</span></h3>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000010500000096106C9004.png" width="183" height="105" style="display:inline-block; margin:4px;width:4.83cm;height:2.776cm;" class="odt-zoomable" data-zoom-src="images/100000000000010500000096106C9004.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>La clase de prueba es la descrita en <a href="#refheading318231812363491"><u><span style="color: #0563c1">la sección 8.6</span></u></a>.</p>
+<p>La clase de prueba es la descrita en el apartado<a href="td-la-capa-metier.html#refheading318231812363491"><u><span style="color: #0563c1"> 8.6</span></u></a>.</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
-<p><strong>Tarea</strong>: Implementa el proyecto de la capa [de negocio] y supera su prueba unitaria. Genera el archivo de la capa en el repositorio local de Maven (Ejecutar como / Maven / Instalar).</p>
+<p><strong>Tarea a realizar</strong>: implemente el proyecto de la capa [métier] y supere su prueba unitaria. Genere el archivo de la capa en el repositorio local de Maven (ejecute as/ Maven / install).</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
 
-<p><a id="refheading18030265679331"></a></p>
-<h2 id="143-el-proyecto-eclipse-para-la-capa-web">14.3. <span style="color: #4f81bd">El proyecto Eclipse para la capa [web]</span></h2>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004E700000109B8AD6479.png" width="628" height="133" style="display:inline-block; margin:4px;width:16.603cm;height:3.507cm;" class="odt-zoomable" data-zoom-src="images/10000000000004E700000109B8AD6479.png" /></td></tr></table>
+<p><span id="refheading18030265679331" name="refheading18030265679331" class="odt-bookmark-anchor"></span></p>
+<h2 id="143-el-proyecto-eclipse-de-la-capa-web">14.3. <span style="color: #4f81bd">El proyecto Eclipse de la capa [web]</span></h2>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000004E700000109B8AD6479.png" width="628" height="133" style="display:inline-block; margin:4px;width:16.603cm;height:3.507cm;" class="odt-zoomable" data-zoom-src="images/10000000000004E700000109B8AD6479.png" /></td></tr></table>
 
 <p>La capa web es una capa Spring MVC:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000046A000001643A4134AE.png" width="565" height="178" style="display:inline-block; margin:4px;width:14.949cm;height:4.71cm;" class="odt-zoomable" data-zoom-src="images/100000000000046A000001643A4134AE.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000046A000001643A4134AE.png" width="565" height="178" style="display:inline-block; margin:4px;width:14.949cm;height:4.71cm;" class="odt-zoomable" data-zoom-src="images/100000000000046A000001643A4134AE.png" /></td></tr></table>
 
 <p>El proyecto Eclipse tiene la siguiente estructura:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000144000000DF0DF25CC2.png" width="227" height="156" style="display:inline-block; margin:4px;width:6.001cm;height:4.129cm;" class="odt-zoomable" data-zoom-src="images/1000000000000144000000DF0DF25CC2.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000E2000000AAC294C278.png" width="158" height="119" style="display:inline-block; margin:4px;width:4.189cm;height:3.15cm;" class="odt-zoomable" data-zoom-src="images/10000000000000E2000000AAC294C278.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000144000000DF0DF25CC2.png" width="227" height="156" style="display:inline-block; margin:4px;width:6.001cm;height:4.129cm;" class="odt-zoomable" data-zoom-src="images/1000000000000144000000DF0DF25CC2.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000E2000000AAC294C278.png" width="158" height="119" style="display:inline-block; margin:4px;width:4.189cm;height:3.15cm;" class="odt-zoomable" data-zoom-src="images/10000000000000E2000000AAC294C278.png" /></td></tr></table>
 
 <ul>
   <li>[Boot.java] es la clase que inicia el servicio web;
   </li>
   <li>[WebConfig.java] es la clase de configuración del servicio web;
   </li>
-  <li>[Response.java] es la respuesta generada por las distintas URL del servicio web;
+  <li>[Response.java] es la respuesta generada por los distintos URL del servicio web;
   </li>
   <li>[ElectionsController] es la clase de implementación del servicio web;
   </li>
 </ul>
 
-<p><a id="refheading18032265679331"></a></p>
+<p><span id="refheading18032265679331" name="refheading18032265679331" class="odt-bookmark-anchor"></span></p>
 <h2 id="144-configuracion-de-maven">14.4. <span style="color: #4f81bd">Configuración de Maven</span></h2>
-<p>El proyecto es un proyecto Maven configurado mediante el siguiente archivo [pom.xml]:</p>
+<p>El proyecto es un proyecto Maven configurado por el siguiente archivo [pom.xml]:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-xml">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">project</span> <span style="color:#7f007f">xmlns</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://maven.apache.org/POM/4.0.0&quot;</span> <span style="color:#7f007f">xmlns:xsi</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#7f007f">xsi:schemaLocation</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&quot;</span><span style="color:#008080">&gt;</span></span></span>
@@ -1272,13 +1274,13 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">parent</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">dependencies</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">&lt;!-- business layer --&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">&lt;!-- capa empresarial --&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">dependency</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span><span style="color:#000000">istia.st.elections</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span><span style="color:#000000">elections-metier-dao-spring-data</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span><span style="color:#000000">0.1.0</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">dependency</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">&lt;!-- layer MVC --&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">&lt;!-- capa MVC --&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">dependency</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span><span style="color:#000000">org.springframework.boot</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span><span style="color:#000000">spring-boot-starter-web</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span></span></span>
@@ -1304,18 +1306,18 @@
 </code></pre></div>
 
 <ul>
-  <li>líneas 19–23: la dependencia del archivo de la capa [business]. Es el que creamos en <a href="#refheading18028265679331"><u><span style="color: #0563c1">el párrafo 14</span></u></a>;
+  <li>líneas 19-23: la dependencia del archivo de la capa [métier]. Es la que creamos en el apartado<a href="#refheading18028265679331"><u><span style="color: #0563c1"> 14</span></u></a>;
   </li>
-  <li>líneas 25–28: la dependencia para una aplicación Spring MVC;
+  <li>líneas 25-28: la dependencia para tener una aplicación Spring MVC;
   </li>
 </ul>
 
-<p><a id="refheading18034265679331"></a></p>
-<h2 id="145-configuracion-de-spring">14.5. <span style="color: #4f81bd"><span style="color: #4f81bd">Configuración de Spring</span></span></h2>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000014100000093208C1DB3.png" width="225" height="103" style="display:inline-block; margin:4px;width:5.941cm;height:2.722cm;" class="odt-zoomable" data-zoom-src="images/100000000000014100000093208C1DB3.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p><span id="refheading18034265679331" name="refheading18034265679331" class="odt-bookmark-anchor"></span></p>
+<h2 id="145-configuracion-de-spring">14.5. <span style="color: #4f81bd">Configuración de Spring</span></h2>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000014100000093208C1DB3.png" width="225" height="103" style="display:inline-block; margin:4px;width:5.941cm;height:2.722cm;" class="odt-zoomable" data-zoom-src="images/100000000000014100000093208C1DB3.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>La clase [WebConfig] configura el servicio web:</p>
-<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-python">
+<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> elections.webjson.config;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.beans.factory.annotation.Autowired;</span></span></span>
@@ -1340,7 +1342,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#646464">@Import</span><span style="color:#000000">({ MetierConfig.</span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000"> })</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#646464">@ComponentScan</span><span style="color:#000000">({ </span><span style="color:#2a00ff">&quot;elections.webjson.service&quot;</span><span style="color:#000000"> })</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000"> WebConfig {</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// -------------------------------- layer configuration [web]</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// -------------------------------- configuración de capa [web]</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@Autowired</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> ApplicationContext </span><span style="color:#0000c0">context</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
@@ -1359,7 +1361,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> EmbeddedServletContainerFactory embeddedServletContainerFactory() {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">return</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">new</span><span style="color:#000000"> TomcatEmbeddedServletContainerFactory(</span><span style="color:#2a00ff">&quot;&quot;</span><span style="color:#000000">, 8080);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    }</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// mapper jSON</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// mapeador jSON</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@Bean</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@Scope</span><span style="color:#000000">(value = ConfigurableBeanFactory.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">SCOPE_PROTOTYPE</span><span style="color:#000000">)</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> ObjectMapper jsonMapper() {</span></span></span>
@@ -1369,21 +1371,21 @@
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
-<ul>
-  <li>El significado de esta configuración se explicó en <a href="#refheading17988265679331"><u><span style="color: #0563c1">la sección 13.5.3.1</span></u></a>. Solo explicaremos las nuevas características:
+<ol>
+  <li>El significado de esta configuración se ha explicado en el apartado<a href="cours-exponer-una-base-de-datos-en-la-web-con-spring-mvc.html#refheading17988265679331"><u><span style="color: #0563c1"> 13.5.3.1</span></u></a>. Solo explicaremos las novedades:
   </li>
-  <li>línea 22: importamos el archivo de configuración de la capa [business] para poder utilizar todos sus beans;
+  <li>línea 22: se importa el archivo de configuración de la capa [métier] para poder utilizar todos sus beans;
   </li>
-  <li>línea 23: especificamos que los demás beans se encontrarán en la carpeta [<span style="color: #2a00ff">elections.webjson.server.service</span>];
+  <li>línea 23: se indica que se encontrarán otros beans en la carpeta [elections.webjson.server.service];
   </li>
-</ul>
+</ol>
 
-<p><a id="refheading18036265679331"></a></p>
+<p><span id="refheading18036265679331" name="refheading18036265679331" class="odt-bookmark-anchor"></span></p>
 <h2 id="146-la-clase-de-inicio-del-servicio-web">14.6. <span style="color: #4f81bd">La clase de inicio del servicio web</span></h2>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000001390000009220D29527.png" width="219" height="102" style="display:inline-block; margin:4px;width:5.791cm;height:2.701cm;" class="odt-zoomable" data-zoom-src="images/10000000000001390000009220D29527.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000001390000009220D29527.png" width="219" height="102" style="display:inline-block; margin:4px;width:5.791cm;height:2.701cm;" class="odt-zoomable" data-zoom-src="images/10000000000001390000009220D29527.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>La clase [Boot] inicia el servicio web de la siguiente manera:</p>
-<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-python">
+<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> elections.webjson.boot;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.boot.SpringApplication;</span></span></span>
@@ -1398,31 +1400,31 @@
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
-<ul>
-  <li>Línea 10: El método estático [<span style="color: #000000">SpringApplication.</span><i><span style="color: #000000">run</span></i>] utilizará el archivo de configuración [WebConfig]. Gracias a la anotación [@EnableAutoConfiguration], Spring Boot iniciará el servidor Tomcat e implementará el servicio web en él;
+<ol>
+  <li>línea 10: el método estático [SpringApplication.run] utilizará el archivo de configuración [WebConfig]. Debido a la anotación [@EnableAutoConfiguration], Spring Boot iniciará el servidor Tomcat e implementará el servicio web en él;
   </li>
-</ul>
-<p><a id="refheading18038265679331"></a></p>
-<h2 id="147-la-respuesta-de-las-url-del-servicio-web">14.7. <span style="color: #4f81bd">La respuesta de las URL del servicio web</span></h2>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000146000000A451BFCA3B.png" width="228" height="115" style="display:inline-block; margin:4px;width:6.04cm;height:3.039cm;" class="odt-zoomable" data-zoom-src="images/1000000000000146000000A451BFCA3B.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+</ol>
+<p><span id="refheading18038265679331" name="refheading18038265679331" class="odt-bookmark-anchor"></span></p>
+<h2 id="147-la-respuesta-de-url-del-servicio-web">14.7. <span style="color: #4f81bd">La respuesta de URL del servicio web</span></h2>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000146000000A451BFCA3B.png" width="228" height="115" style="display:inline-block; margin:4px;width:6.04cm;height:3.039cm;" class="odt-zoomable" data-zoom-src="images/1000000000000146000000A451BFCA3B.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>Todas las URL del servicio web / JSON envían el mismo tipo de respuesta:</p>
-<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-python">
+<p>Todos los URL del servicio web / jSON envían el mismo tipo de respuesta:</p>
+<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> elections.webjson.service;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> java.util.List;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000"> Response&lt;T&gt; {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ----------------- properties</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// operation status</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ----------------- propiedades</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// estado de funcionamiento</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">int</span><span style="color:#000000"> </span><span style="color:#0000c0">status</span><span style="color:#000000">;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// any error messages</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// cualquier mensaje de error</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> List&lt;String&gt; </span><span style="color:#0000c0">messages</span><span style="color:#000000">;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// the body of the reply</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// el cuerpo de la respuesta</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> T </span><span style="color:#0000c0">body</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// manufacturers</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// fabricantes</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> Response() {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    }</span></span>
@@ -1433,18 +1435,18 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">this</span><span style="color:#000000">.</span><span style="color:#0000c0">body</span><span style="color:#000000"> = </span><span style="color:#6a3e3e">body</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    }</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// getters and setters</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// getters y setters</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">...</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
-<p>Esta clase se presentó y analizó en <a href="#refheading399246986338762"><u><span style="color: #0563c1">la sección 13.5.5.3</span></u></a>.</p>
-<p><a id="refheading18040265679331"></a></p>
-<h2 id="148-implementacion-del-servicio-web-json">14.8. <span style="color: #4f81bd">Implementación del servicio web / JSON</span></h2>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000146000000A451BFCA3B.png" width="228" height="115" style="display:inline-block; margin:4px;width:6.04cm;height:3.039cm;" class="odt-zoomable" data-zoom-src="images/1000000000000146000000A451BFCA3B.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p>Esta clase se ha presentado y estudiado en el apartado<a href="cours-exponer-una-base-de-datos-en-la-web-con-spring-mvc.html#refheading399246986338762"><u><span style="color: #0563c1"> 13.5.5.3</span></u></a>.</p>
+<p><span id="refheading18040265679331" name="refheading18040265679331" class="odt-bookmark-anchor"></span></p>
+<h2 id="148-la-implementacion-del-servicio-web-json">14.8. <span style="color: #4f81bd">La implementación del servicio web / jSON</span></h2>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000146000000A451BFCA3B.png" width="228" height="115" style="display:inline-block; margin:4px;width:6.04cm;height:3.039cm;" class="odt-zoomable" data-zoom-src="images/1000000000000146000000A451BFCA3B.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>El servicio web /jSON se implementa mediante la siguiente clase [ElectionsController]:</p>
-<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-sql">
+<p>El servicio web / jSON se implementa mediante la siguiente clase [ElectionsController]:</p>
+<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> elections.webjson.service;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> java.util.ArrayList;</span></span></span>
@@ -1468,7 +1470,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content">@Controller</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000"> ElectionsController {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// spring dependencies</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// dependencias de Spring</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@Autowired</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> ObjectMapper </span><span style="color:#0000c0">jsonMapper</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
@@ -1478,7 +1480,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@RequestMapping</span><span style="color:#000000">(value = </span><span style="color:#2a00ff">&quot;/getElectionsConfig&quot;</span><span style="color:#000000">, method = RequestMethod.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">GET</span><span style="color:#000000">, produces = </span><span style="color:#2a00ff">&quot;application/json; charset=UTF-8&quot;</span><span style="color:#000000">)</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@ResponseBody</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> String getElectionsConfig() </span><span style="font-weight:bold;color:#7f0055">throws</span><span style="color:#000000"> JsonProcessingException {</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// answer</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// responder</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        Response&lt;ElectionsConfig&gt; </span><span style="color:#6a3e3e">response</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">try</span><span style="color:#000000"> {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#6a3e3e">response</span><span style="color:#000000"> = </span><span style="font-weight:bold;color:#7f0055">new</span><span style="color:#000000"> Response&lt;&gt;(0, </span><span style="font-weight:bold;color:#7f0055">null</span><span style="color:#000000">,</span></span></span>
@@ -1488,7 +1490,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        } </span><span style="font-weight:bold;color:#7f0055">catch</span><span style="color:#000000"> (RuntimeException </span><span style="color:#6a3e3e">e2</span><span style="color:#000000">) {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#6a3e3e">response</span><span style="color:#000000"> = </span><span style="font-weight:bold;color:#7f0055">new</span><span style="color:#000000"> Response&lt;&gt;(1000, getErreursForException(</span><span style="color:#6a3e3e">e2</span><span style="color:#000000">), </span><span style="font-weight:bold;color:#7f0055">null</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        }</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// answer</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// responder</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">return</span><span style="color:#000000"> </span><span style="color:#0000c0">jsonMapper</span><span style="color:#000000">.writeValueAsString(</span><span style="color:#6a3e3e">response</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    }</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
@@ -1510,14 +1512,14 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">throw</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">new</span><span style="color:#000000"> UnsupportedOperationException(</span><span style="color:#2a00ff">&quot;Not supported yet&quot;</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    }</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// private methods -----------------------------</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// list of RuntimeException error messages</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// métodos privados -----------------------------</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// lista de mensajes de error RuntimeException</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> List&lt;String&gt; getErreursForException(Exception </span><span style="color:#6a3e3e">e</span><span style="color:#000000">) {</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// retrieve the list of exception error messages</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// recuperar la lista de mensajes de error de la excepción</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        Throwable </span><span style="color:#6a3e3e">cause</span><span style="color:#000000"> = </span><span style="color:#6a3e3e">e</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        List&lt;String&gt; </span><span style="color:#6a3e3e">erreurs</span><span style="color:#000000"> = </span><span style="font-weight:bold;color:#7f0055">new</span><span style="color:#000000"> ArrayList&lt;&gt;();</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">while</span><span style="color:#000000"> (</span><span style="color:#6a3e3e">cause</span><span style="color:#000000"> != </span><span style="font-weight:bold;color:#7f0055">null</span><span style="color:#000000">) {</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#000000">// the message is retrieved only if it is !=null and not blank</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#000000">// el mensaje sólo se recupera si es !=null y no está en blanco</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            String </span><span style="color:#6a3e3e">message</span><span style="color:#000000"> = </span><span style="color:#6a3e3e">cause</span><span style="color:#000000">.getMessage();</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="font-weight:bold;color:#7f0055">if</span><span style="color:#000000"> (</span><span style="color:#6a3e3e">message</span><span style="color:#000000"> != </span><span style="font-weight:bold;color:#7f0055">null</span><span style="color:#000000">) {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">                </span><span style="color:#6a3e3e">message</span><span style="color:#000000"> = </span><span style="color:#6a3e3e">message</span><span style="color:#000000">.trim();</span></span></span>
@@ -1525,7 +1527,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">                    </span><span style="color:#6a3e3e">erreurs</span><span style="color:#000000">.add(</span><span style="color:#6a3e3e">message</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                }</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            }</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#000000">// next cause</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#000000">// siguiente causa</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#6a3e3e">cause</span><span style="color:#000000"> = </span><span style="color:#6a3e3e">cause</span><span style="color:#000000">.getCause();</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        }</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">return</span><span style="color:#000000"> </span><span style="color:#6a3e3e">erreurs</span><span style="color:#000000">;</span></span></span>
@@ -1535,68 +1537,68 @@
 </code></pre></div>
 
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
-<p><strong>Tarea</strong>: Siguiendo los pasos de <a href="#refheading480904986338762"><u><span style="color: #0563c1">la sección 13.5.5</span></u></a>, completa el código de la clase [<span style="color: #000000">ElectionsController</span>].</p>
+<p><strong>Tarea</strong>: siguiendo lo realizado en el apartado<a href="cours-exponer-una-base-de-datos-en-la-web-con-spring-mvc.html#refheading480904986338762"><u><span style="color: #0563c1"> 13.5.5</span></u></a>, complete el código de la clase [ElectionsController].</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
 <p><strong>Notas</strong>: </p>
-<ul>
-  <li>Aquí no hay filtros JSON porque las tablas [CONF] y [LISTES] no están vinculadas por una relación de clave externa, lo que simplifica considerablemente el código del servicio web;
+<ol>
+  <li>aquí no hay filtros jSON porque las tablas [CONF] y [LISTES] no están relacionadas entre sí mediante una clave externa, lo que aligera considerablemente el código del servicio web;
   </li>
-  <li>No olvide las diversas anotaciones de Spring necesarias;
+  <li>no olvide las diferentes anotaciones Spring necesarias;
   </li>
-  <li>Las URL recibirán el nombre de los métodos asociados;
+  <li>se asignará a URL el nombre de los métodos asociados;
   </li>
-  <li>El método [setListeElectorales] se invoca mediante una operación [POST]. El valor enviado es la matriz de listas candidatas (de tipo <i>ListeElectorale[]) </i>con sus atributos [escaños, votos, eliminados], que deben guardarse en la base de datos. Este método devuelve un [Response&lt;Void&gt;] con un campo [status=0] si no se han producido errores; en caso contrario, devuelve otro valor;
+  <li>el método [setListeElectorales] se invoca con una operación [POST]. El valor enviado es la matriz de listas en competición (de tipo <i>ListeElectorale[]) </i>con sus atributos [sieges, voix, elimine], que deben registrarse en la base de datos. Este método devuelve un tipo [Response&lt;Void&gt;] con un campo [status=0] si no se ha producido ningún error; en caso contrario, devuelve otro valor;
   </li>
-  <li>El método [calculateSeats] se invoca mediante una operación [POST]. El valor enviado es la matriz de listas en liza (de tipo <i>ElectoralList[]) </i>con sus atributos [nombre, votos]. Este método devuelve un [Response&lt;<i>ElectoralList[]</i>&gt;] con, como cuerpo, las listas electorales con sus campos [escaños, eliminados] inicializados;
+  <li>el método [calculerSieges] se invoca con una operación [POST]. El valor enviado es la matriz de las listas en liza (de tipo <i>ListeElectorale[]) </i>con sus atributos [nom, voix]. Este método devuelve un tipo [Response&lt;<i>ListeElectorale[]</i>&gt;] con, como cuerpo, las listas electorales con sus campos [sieges, elimine] inicializados;
   </li>
-</ul>
+</ol>
 
-<p><a id="refheading18042265679331"></a></p>
+<p><span id="refheading18042265679331" name="refheading18042265679331" class="odt-bookmark-anchor"></span></p>
 <h2 id="149-pruebas">14.9. <span style="color: #4f81bd">Pruebas</span></h2>
-<p>Tras iniciar el servicio web, realice las siguientes pruebas para asegurarse de que el servicio web funciona correctamente utilizando la utilidad [Advanced Rest Client]:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004740000019153345254.png" width="570" height="201" style="display:inline-block; margin:4px;width:15.081cm;height:5.306cm;" class="odt-zoomable" data-zoom-src="images/10000000000004740000019153345254.png" /></td></tr></table>
+<p>Una vez iniciado el servicio web, realice las siguientes pruebas para asegurarse del correcto funcionamiento del servicio web con la utilidad [Advanced Rest Client]:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000004740000019153345254.png" width="570" height="201" style="display:inline-block; margin:4px;width:15.081cm;height:5.306cm;" class="odt-zoomable" data-zoom-src="images/10000000000004740000019153345254.png" /></td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>La respuesta JSON a la solicitud anterior es la siguiente [1]:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004EE0000010E9AF4E549.png" width="631" height="135" style="display:inline-block; margin:4px;width:16.695cm;height:3.572cm;" class="odt-zoomable" data-zoom-src="images/10000000000004EE0000010E9AF4E549.png" /></td></tr></table>
+<p>La respuesta jSON a la solicitud anterior es la siguiente [1]:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000004EE0000010E9AF4E549.png" width="631" height="135" style="display:inline-block; margin:4px;width:16.695cm;height:3.572cm;" class="odt-zoomable" data-zoom-src="images/10000000000004EE0000010E9AF4E549.png" /></td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0"><b>1</b></div><img src="images/100000000000020E0000009B405BC0BA.png" width="327" height="96" style="display:inline-block; margin:4px;width:8.641cm;height:2.545cm;" class="odt-zoomable" data-zoom-src="images/100000000000020E0000009B405BC0BA.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0"><b>2</b></div><img src="images/10000000000001660000009D582D7FD4.png" width="251" height="110" style="display:inline-block; margin:4px;width:6.63cm;height:2.909cm;" class="odt-zoomable" data-zoom-src="images/10000000000001660000009D582D7FD4.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>1</b></div><img src="images/100000000000020E0000009B405BC0BA.png" width="327" height="96" style="display:inline-block; margin:4px;width:8.641cm;height:2.545cm;" class="odt-zoomable" data-zoom-src="images/100000000000020E0000009B405BC0BA.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>2</b></div><img src="images/10000000000001660000009D582D7FD4.png" width="251" height="110" style="display:inline-block; margin:4px;width:6.63cm;height:2.909cm;" class="odt-zoomable" data-zoom-src="images/10000000000001660000009D582D7FD4.png" /></td></tr></table>
 
-<p>En [2], copia la respuesta al portapapeles y, a continuación, pégala en cualquier editor de texto [3]:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004DB000000B345A6C2CD.png" width="622" height="89" style="display:inline-block; margin:4px;width:16.445cm;height:2.367cm;" class="odt-zoomable" data-zoom-src="images/10000000000004DB000000B345A6C2CD.png" /></td></tr></table>
+<p>En [2], copie la respuesta al portapapeles y, a continuación, pégela en cualquier editor de texto [3]:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000004DB000000B345A6C2CD.png" width="622" height="89" style="display:inline-block; margin:4px;width:16.445cm;height:2.367cm;" class="odt-zoomable" data-zoom-src="images/10000000000004DB000000B345A6C2CD.png" /></td></tr></table>
 
-<p>Aísla el valor del campo [body] y modifica, por ejemplo, los votos de las listas. A continuación [4], establecemos los votos de todas las listas en 100:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005350000009F9BBD92F1.png" width="667" height="79" style="display:inline-block; margin:4px;width:17.635cm;height:2.103cm;" class="odt-zoomable" data-zoom-src="images/10000000000005350000009F9BBD92F1.png" /></td></tr></table>
+<p>Aísle el valor del campo [body] y cambie, por ejemplo, los votos de las listas. A continuación, en [4], se establecen en 100 los votos de todas las listas:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005350000009F9BBD92F1.png" width="667" height="79" style="display:inline-block; margin:4px;width:17.635cm;height:2.103cm;" class="odt-zoomable" data-zoom-src="images/10000000000005350000009F9BBD92F1.png" /></td></tr></table>
 
-<p>Comprueba que tu cadena JSON comience por [ y termine por ]. Estos caracteres se utilizan para delimitar una matriz JSON. En [5], pega la cadena JSON anterior. Este será el valor que se enviará a la siguiente URL. Para ello, selecciona el método HTTP [POST] [7].</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000389000002951E58C4B7.png" width="453" height="331" style="display:inline-block; margin:4px;width:11.973cm;height:8.745cm;" class="odt-zoomable" data-zoom-src="images/1000000000000389000002951E58C4B7.png" /></td></tr></table>
+<p>Compruebe que su cadena jSON comience por [ et se termine par ]. Estos caracteres sirven para delimitar una tabla jSON. En [5], pegue la cadena jSON anterior. Este será el valor enviado para el siguiente URL. Para ello, hay que seleccionar el método HTTP [POST] [7].</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000389000002951E58C4B7.png" width="453" height="331" style="display:inline-block; margin:4px;width:11.973cm;height:8.745cm;" class="odt-zoomable" data-zoom-src="images/1000000000000389000002951E58C4B7.png" /></td></tr></table>
 
 <ul>
-  <li>En [6], se solicita la URL [setListesElectorales]. Esta URL se solicita mediante una solicitud POST. El valor enviado es la matriz JSON de las listas que compiten, cuyos resultados deben guardarse en la base de datos;
+  <li>En [6], solicite el URL [setListesElectorales]. Este URL se solicita con un POST. El valor introducido es la tabla jSON de las listas en competición cuyos resultados deben registrarse en la base;
   </li>
 </ul>
 
 <p>Se obtiene el siguiente resultado:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000012D000000AAEFA1BA96.png" width="211" height="119" style="display:inline-block; margin:4px;width:5.57cm;height:3.147cm;" class="odt-zoomable" data-zoom-src="images/100000000000012D000000AAEFA1BA96.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000012D000000AAEFA1BA96.png" width="211" height="119" style="display:inline-block; margin:4px;width:5.57cm;height:3.147cm;" class="odt-zoomable" data-zoom-src="images/100000000000012D000000AAEFA1BA96.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>El campo [status=0] indica que no se han producido errores. Para verificarlo, solicite de nuevo las listas en competencia y compruebe que se han aplicado los cambios que ha realizado en las listas:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000047B000002A09AA33DAB.png" width="574" height="336" style="display:inline-block; margin:4px;width:15.175cm;height:8.892cm;" class="odt-zoomable" data-zoom-src="images/100000000000047B000002A09AA33DAB.png" /></td></tr></table>
+<p>El campo [status=0] indica que no se ha producido ningún error. Para verificarlo, vuelva a solicitar las listas en competición y compruebe que se han tenido en cuenta las modificaciones que había realizado en las listas:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000047B000002A09AA33DAB.png" width="574" height="336" style="display:inline-block; margin:4px;width:15.175cm;height:8.892cm;" class="odt-zoomable" data-zoom-src="images/100000000000047B000002A09AA33DAB.png" /></td></tr></table>
 
-<p>Realizamos otra solicitud [POST] para calcular los escaños obtenidos por las listas:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000036B0000026DEF80E326.png" width="438" height="311" style="display:inline-block; margin:4px;width:11.576cm;height:8.216cm;" class="odt-zoomable" data-zoom-src="images/100000000000036B0000026DEF80E326.png" /></td></tr></table>
+<p>Se vuelve a ejecutar un [POST] para calcular los escaños obtenidos por las listas:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000036B0000026DEF80E326.png" width="438" height="311" style="display:inline-block; margin:4px;width:11.576cm;height:8.216cm;" class="odt-zoomable" data-zoom-src="images/100000000000036B0000026DEF80E326.png" /></td></tr></table>
 
-<ul>
-  <li>en [1]: la URL para calcular los escaños;
+<ol>
+  <li>en [1]: el URL del cálculo de escaños;
   </li>
-  <li>en [2]: enviamos una solicitud [POST];
+  <li>en [2]: se ejecuta un [POST];
   </li>
-  <li>en [3]: las listas que compiten. Establecemos el campo [votes] con los valores del tutorial, todos los [seats] se establecen en 0 y todos los campos [eliminate] se establecen en false;
+  <li>en [3]: las listas en liza. Se asignan al campo [voix] los valores del TD, todos los [sieges] se ponen a 0, todos los campos [elimine] se ponen a false;
   </li>
-</ul>
+</ol>
 
 <p>El resultado obtenido es el siguiente:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000010E00000280D0177E14.png" width="189" height="448" style="display:inline-block; margin:4px;width:5.001cm;height:11.853cm;" class="odt-zoomable" data-zoom-src="images/100000000000010E00000280D0177E14.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000010E00000280D0177E14.png" width="189" height="448" style="display:inline-block; margin:4px;width:5.001cm;height:11.853cm;" class="odt-zoomable" data-zoom-src="images/100000000000010E00000280D0177E14.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 
 

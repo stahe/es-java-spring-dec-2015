@@ -12,13 +12,13 @@
         <meta name="author" content="Serge Tahé">
       
       
-        <link rel="canonical" href="https://stahe.github.io/es-java-spring-dec-2015/td-implementacion-de-la-capa-dao-del-td-utilizando-spring-data.html">
+        <link rel="canonical" href="https://stahe.github.io/es-java-spring-dec-2015/td-implementacion-de-la-capa-dao-de-td-con-spring-data.html">
       
       
-        <link rel="prev" href="curso-gestion-de-bases-de-datos-relacionales-con-spring-data.html">
+        <link rel="prev" href="cours-gestion-de-bases-de-datos-relacionales-con-spring-data.html">
       
       
-        <link rel="next" href="curso-exposicion-de-una-base-de-datos-en-la-web-con-spring-mvc.html">
+        <link rel="next" href="cours-exponer-una-base-de-datos-en-la-web-con-spring-mvc.html">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>12. [TD]: Implementación de la capa [DAO] del TD utilizando [Spring Data] - Introducción al lenguaje Java y al ecosistema Spring</title>
+        <title>12. [TD]: Implementación de la capa [DAO] de TD con [Spring Data] - Introducción al lenguaje Java y al ecosistema Spring</title>
       
     
     
@@ -56,6 +56,8 @@
     
     
       <link rel="stylesheet" href="stylesheets/focus.css">
+    
+      <link rel="stylesheet" href="stylesheets/bidi.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -92,7 +94,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#12-td-implementacion-de-la-capa-dao-del-td-utilizando-spring-data" class="md-skip">
+        <a href="#12-td-implementacion-de-la-capa-dao-de-td-con-spring-data" class="md-skip">
           Skip to content
         </a>
       
@@ -128,7 +130,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              12. [TD]: Implementación de la capa [DAO] del TD utilizando [Spring Data]
+              12. [TD]: Implementación de la capa [DAO] de TD con [Spring Data]
             
           </span>
         </div>
@@ -330,14 +332,14 @@
   
   
     <li class="md-nav__item">
-      <a href="tarea-el-problema.html" class="md-nav__link">
+      <a href="td-el-problema.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    2. [Tarea]: El problema
+    2. [TD]: El problema
   
 
     
@@ -411,14 +413,14 @@
   
   
     <li class="md-nav__item">
-      <a href="curso-introduccion-al-marco-spring.html" class="md-nav__link">
+      <a href="cours-introduccion-al-framework-spring.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    5. [Curso]: Introducción al marco Spring
+    5. [Cours]: Introducción al framework Spring
   
 
     
@@ -438,14 +440,14 @@
   
   
     <li class="md-nav__item">
-      <a href="curso-introduccion-a-la-api-jdbc.html" class="md-nav__link">
+      <a href="cours-introduccion-a-api-jdbc.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    6. [Curso]: Introducción a la API JDBC
+    6. [Cours]: Introducción a API JDBC
   
 
     
@@ -465,14 +467,14 @@
   
   
     <li class="md-nav__item">
-      <a href="td-implementacion-de-la-capa-dao-del-td-utilizando-la-api-jdbc.html" class="md-nav__link">
+      <a href="td-implementacion-de-la-capa-dao-de-td-con-api-jdbc.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    7. [TD]: Implementación de la capa [DAO] del TD utilizando la API JDBC
+    7. [TD]: Implementación de la capa [DAO] de TD con API JDBC
   
 
     
@@ -492,14 +494,14 @@
   
   
     <li class="md-nav__item">
-      <a href="td-la-capa-business.html" class="md-nav__link">
+      <a href="td-la-capa-metier.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    8. [TD]: La capa [business]
+    8. [TD]: La capa [metier]
   
 
     
@@ -546,14 +548,14 @@
   
   
     <li class="md-nav__item">
-      <a href="tarea-implementacion-de-la-capa-ui-utilizando-una-interfaz-swing-.html" class="md-nav__link">
+      <a href="td-implementacion-de-la-capa-ui-con-una-interfaz-swing-de-tipo--.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    10. [Tarea]: Implementación de la capa [ui] utilizando una interfaz Swing: 
+    10. [TD]: Implementación de la capa [ui] con una interfaz Swing de tipo « »
   
 
     
@@ -573,14 +575,14 @@
   
   
     <li class="md-nav__item">
-      <a href="curso-gestion-de-bases-de-datos-relacionales-con-spring-data.html" class="md-nav__link">
+      <a href="cours-gestion-de-bases-de-datos-relacionales-con-spring-data.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    11. [Curso]: Gestión de bases de datos relacionales con Spring Data
+    11. [Cours]: Gestión de bases de datos relacionales con Spring Data
   
 
     
@@ -616,7 +618,7 @@
   <span class="md-ellipsis">
     
   
-    12. [TD]: Implementación de la capa [DAO] del TD utilizando [Spring Data]
+    12. [TD]: Implementación de la capa [DAO] de TD con [Spring Data]
   
 
     
@@ -627,14 +629,14 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="td-implementacion-de-la-capa-dao-del-td-utilizando-spring-data.html" class="md-nav__link md-nav__link--active">
+      <a href="td-implementacion-de-la-capa-dao-de-td-con-spring-data.html" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
     
   
-    12. [TD]: Implementación de la capa [DAO] del TD utilizando [Spring Data]
+    12. [TD]: Implementación de la capa [DAO] de TD con [Spring Data]
   
 
     
@@ -671,10 +673,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#122-el-proyecto-de-eclipse" class="md-nav__link">
+  <a href="#122-el-proyecto-eclipse" class="md-nav__link">
     <span class="md-ellipsis">
       
-        12.2. El proyecto de Eclipse
+        12.2. El proyecto Eclipse
       
     </span>
   </a>
@@ -738,10 +740,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#1244-la-clase-voterlist" class="md-nav__link">
+  <a href="#1244-la-clase-listeelectorale" class="md-nav__link">
     <span class="md-ellipsis">
       
-        12.4.4. La clase [VoterList]
+        12.4.4. La clase [ListeElectorale]
       
     </span>
   </a>
@@ -823,14 +825,14 @@
   
   
     <li class="md-nav__item">
-      <a href="curso-exposicion-de-una-base-de-datos-en-la-web-con-spring-mvc.html" class="md-nav__link">
+      <a href="cours-exponer-una-base-de-datos-en-la-web-con-spring-mvc.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    13. [Curso]: Exposición de una base de datos en la web con Spring MVC
+    13. [Cours]: Exponer una base de datos en la web con Spring MVC
   
 
     
@@ -850,14 +852,14 @@
   
   
     <li class="md-nav__item">
-      <a href="td-exposicion-web-de-la-capa-de-negocio.html" class="md-nav__link">
+      <a href="td-exposicion-en-la-web-de-la-capa-metier.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    14. [TD]: Exposición web de la capa [de negocio]
+    14. [TD]: Exposición en la web de la capa [metier]
   
 
     
@@ -884,7 +886,7 @@
   <span class="md-ellipsis">
     
   
-    15. [TD]: Creación de un cliente para el servicio web
+    15. [TD]: creación de un cliente para el servicio web
   
 
     
@@ -904,14 +906,14 @@
   
   
     <li class="md-nav__item">
-      <a href="curso-proteger-el-acceso-a-un-servicio-web-con-spring-security.html" class="md-nav__link">
+      <a href="cours-proteger-el-acceso-a-un-servicio-web-con-spring-security.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    16. [Curso]: Proteger el acceso a un servicio web con Spring Security
+    16. [Cours]: Proteger el acceso a un servicio web con Spring Security
   
 
     
@@ -931,14 +933,14 @@
   
   
     <li class="md-nav__item">
-      <a href="td-proteccion-del-servidor-web--json-para-elecciones.html" class="md-nav__link">
+      <a href="td-seguridad-del-servidor-web--json-de-las-elecciones.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    17. [TD]: Protección del servidor web / JSON para elecciones
+    17. [TD]: seguridad del servidor web / jSON de las elecciones
   
 
     
@@ -958,14 +960,14 @@
   
   
     <li class="md-nav__item">
-      <a href="curso-intercambio-de-recursos-entre-origenes.html" class="md-nav__link">
+      <a href="cours-gestion-de-accesos-entre-dominios.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    18. [Curso]: Intercambio de recursos entre orígenes
+    18. [Cours]: Gestión de accesos entre dominios
   
 
     
@@ -985,14 +987,14 @@
   
   
     <li class="md-nav__item">
-      <a href="td-intercambio-de-recursos-entre-origenes-cors.html" class="md-nav__link">
+      <a href="td-elecciones-con-solicitudes-entre-dominios.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    19. [TD] Intercambio de recursos entre orígenes (CORS)
+    19. [TD] Elecciones con solicitudes entre dominios
   
 
     
@@ -1103,22 +1105,22 @@
 
 
 
-<p><a id="refheading2192602014630537"></a></p>
-<h1 id="12-td-implementacion-de-la-capa-dao-del-td-utilizando-spring-data">12. <span style="color: #365f91">[TD]: Implementación de la capa [DAO] del TD utilizando [Spring Data]</span></h1>
-<p><strong>Palabras clave</strong>: arquitectura multicapa, Spring, inyección de dependencias, JPA (Java Persistence API), Spring Data.</p>
-<p>Seguiremos el mismo enfoque que antes para implementar la capa [DAO] del TD.</p>
-<p><a id="refheading1217161037674463"></a></p>
+<p><span id="refheading2192602014630537" name="refheading2192602014630537" class="odt-bookmark-anchor"></span></p>
+<h1 id="12-td-implementacion-de-la-capa-dao-de-td-con-spring-data">12. <span style="color: #365f91">[TD]: Implementación de la capa [DAO] de TD con [Spring Data]</span></h1>
+<p><strong>Palabras clave</strong>: arquitectura multicapa, Spring, inyección de dependencias, API JPA (Java Persistence API), Spring Data.</p>
+<p>Seguiremos el mismo procedimiento que anteriormente para implementar la capa [DAO] de TD.</p>
+<p><span id="refheading1217161037674463" name="refheading1217161037674463" class="odt-bookmark-anchor"></span></p>
 <h2 id="121-soporte">12.1. <span style="color: #4f81bd">Soporte</span></h2>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000015F000000BCA205EC53.png" width="176" height="94" style="display:inline-block; margin:4px;width:4.644cm;height:2.487cm;" class="odt-zoomable" data-zoom-src="images/100000000000015F000000BCA205EC53.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000015F000000BCA205EC53.png" width="176" height="94" style="display:inline-block; margin:4px;width:4.644cm;height:2.487cm;" class="odt-zoomable" data-zoom-src="images/100000000000015F000000BCA205EC53.png" /></td></tr></table>
 
-<ul>
-  <li>En [1], la carpeta [support / chap-12] contiene el proyecto Eclipse para este capítulo;
+<ol>
+  <li>en [1], la carpeta [support / chap-12] contiene el proyecto Eclipse de este capítulo;
   </li>
-</ul>
-<p><a id="refheading2192622014630537"></a></p>
-<h2 id="122-el-proyecto-de-eclipse">12.2. <span style="color: #4f81bd">El proyecto de Eclipse</span></h2>
-<p>El proyecto de Eclipse tendrá la siguiente estructura:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000F70000014EC15FE9D3.png" width="173" height="234" style="display:inline-block; margin:4px;width:4.57cm;height:6.181cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F70000014EC15FE9D3.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+</ol>
+<p><span id="refheading2192622014630537" name="refheading2192622014630537" class="odt-bookmark-anchor"></span></p>
+<h2 id="122-el-proyecto-eclipse">12.2. <span style="color: #4f81bd">El proyecto Eclipse</span></h2>
+<p>El proyecto Eclipse será el siguiente:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000F70000014EC15FE9D3.png" width="173" height="234" style="display:inline-block; margin:4px;width:4.57cm;height:6.181cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F70000014EC15FE9D3.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <ul>
   <li>[elections.dao.config]: contiene la clase de configuración del proyecto Spring;
@@ -1127,51 +1129,51 @@
   </li>
   <li>[elections.dao.repositories]: contiene las interfaces [CrudRepository] para las tablas [CONF] y [LISTES];
   </li>
-  <li>[elections.dao.service]: contiene la implementación de la capa [DAO]. Esto es lo que tenemos que escribir;
+  <li>[elections.dao.service]: contiene la implementación de la capa [DAO]. Es esta la que debemos escribir;
   </li>
-  <li>[elections.dao.console]: contiene una clase de prueba [console];
+  <li>[elections.dao.console]: contiene una clase de prueba de tipo [console];
   </li>
   <li>[pom.xml]: el archivo de configuración del proyecto Maven;
   </li>
 </ul>
 
 <p>Este proyecto implementa la siguiente arquitectura:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000438000000FAD9AFB415.png" width="540" height="125" style="display:inline-block; margin:4px;width:14.288cm;height:3.307cm;" class="odt-zoomable" data-zoom-src="images/1000000000000438000000FAD9AFB415.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000438000000FAD9AFB415.png" width="540" height="125" style="display:inline-block; margin:4px;width:14.288cm;height:3.307cm;" class="odt-zoomable" data-zoom-src="images/1000000000000438000000FAD9AFB415.png" /></td></tr></table>
 
 <p>La capa [DAO] solo ve la capa implementada por [Spring Data].</p>
-<p><a id="refheading226302014630537"></a></p>
+<p><span id="refheading226302014630537" name="refheading226302014630537" class="odt-bookmark-anchor"></span></p>
 <h2 id="123-configuracion-de-maven">12.3. <span style="color: #4f81bd">Configuración de Maven</span></h2>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
-<p><strong>Tarea</strong>: Compilar el archivo [pom.xml] del proyecto.</p>
+<p><strong>Tarea a realizar</strong>: compila el archivo [pom.xml] del proyecto.</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
 
-<p><a id="refheading2192642014630537"></a></p>
+<p><span id="refheading2192642014630537" name="refheading2192642014630537" class="odt-bookmark-anchor"></span></p>
 <h2 id="124-las-entidades-de-la-capa-jpa">12.4. <span style="color: #4f81bd">Las entidades de la capa [JPA]</span></h2>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000430000000F2A20C3FB2.png" width="536" height="121" style="display:inline-block; margin:4px;width:14.182cm;height:3.201cm;" class="odt-zoomable" data-zoom-src="images/1000000000000430000000F2A20C3FB2.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000430000000F2A20C3FB2.png" width="536" height="121" style="display:inline-block; margin:4px;width:14.182cm;height:3.201cm;" class="odt-zoomable" data-zoom-src="images/1000000000000430000000F2A20C3FB2.png" /></td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000D10000005AD3AD4B0F.png" width="146" height="63" style="display:inline-block; margin:4px;width:3.87cm;height:1.667cm;" class="odt-zoomable" data-zoom-src="images/10000000000000D10000005AD3AD4B0F.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000D10000005AD3AD4B0F.png" width="146" height="63" style="display:inline-block; margin:4px;width:3.87cm;height:1.667cm;" class="odt-zoomable" data-zoom-src="images/10000000000000D10000005AD3AD4B0F.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <ul>
   <li>[ElectionsConfig] es el modelo de objetos asociado a una fila de la tabla [CONF];
   </li>
-  <li>[VoterList] es el modelo de objetos asociado a una fila de la tabla [LISTS];
+  <li>[ListeElectorale] es el modelo de objetos asociado a una fila de la tabla [LISTES];
   </li>
-  <li>[AbstractEntity] es la clase padre de las dos clases anteriores. Extrae los campos [id, version] comunes a ambas clases;
+  <li>[AbstactEntity] es la clase padre de las dos clases anteriores. Factoriza los campos [id, version] comunes a ambas clases;
   </li>
   <li>[ElectionsException] es la clase de excepción del proyecto;
   </li>
 </ul>
-<p><a id="refheading226835658489731"></a></p>
+<p><span id="refheading226835658489731" name="refheading226835658489731" class="odt-bookmark-anchor"></span></p>
 <h3 id="1241-la-clase-electionsexception">12.4.1. <span style="color: #4f81bd">La clase [ElectionsException]</span></h3>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000D10000005A1EDAED12.png" width="146" height="63" style="display:inline-block; margin:4px;width:3.87cm;height:1.667cm;" class="odt-zoomable" data-zoom-src="images/10000000000000D10000005A1EDAED12.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000D10000005A1EDAED12.png" width="146" height="63" style="display:inline-block; margin:4px;width:3.87cm;height:1.667cm;" class="odt-zoomable" data-zoom-src="images/10000000000000D10000005A1EDAED12.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>La clase [ElectionsException] es la excepción no controlada descrita en <a href="#refheading1626141501930048"><u><span style="color: #0563c1">la sección 4.3</span></u></a>.</p>
-<p><a id="refheading226855658489731"></a></p>
+<p>La clase [ElectionsException] es la excepción no controlada descrita en el apartado<a href="td-arquitecturas-en-capas.html#refheading1626141501930048"><u><span style="color: #0563c1"> 4.3</span></u></a>.</p>
+<p><span id="refheading226855658489731" name="refheading226855658489731" class="odt-bookmark-anchor"></span></p>
 <h3 id="1242-la-clase-abstractentity">12.4.2. <span style="color: #4f81bd">La clase [AbstractEntity]</span></h3>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000D10000005AAC8C257E.png" width="146" height="63" style="display:inline-block; margin:4px;width:3.87cm;height:1.667cm;" class="odt-zoomable" data-zoom-src="images/10000000000000D10000005AAC8C257E.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000D10000005AAC8C257E.png" width="146" height="63" style="display:inline-block; margin:4px;width:3.87cm;height:1.667cm;" class="odt-zoomable" data-zoom-src="images/10000000000000D10000005AAC8C257E.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>La clase [AbstractEntity] es la siguiente:</p>
-<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-python">
+<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> elections.dao.entities;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> java.io.Serializable;</span></span></span>
@@ -1190,7 +1192,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">abstract</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000"> AbstractEntity </span><span style="font-weight:bold;color:#7f0055">implements</span><span style="color:#000000"> Serializable{</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">static</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">final</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">long</span><span style="color:#000000"> </span><span style="font-weight:bold;font-style:italic;color:#0000c0">serialVersionUID</span><span style="color:#000000"> = 1L;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// properties</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// propiedades</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@Id</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@GeneratedValue</span><span style="color:#000000">(strategy = GenerationType.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">IDENTITY</span><span style="color:#000000">)</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@Column</span><span style="color:#000000">(name = </span><span style="color:#2a00ff">&quot;ID&quot;</span><span style="color:#000000">)</span></span></span>
@@ -1199,7 +1201,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@Column</span><span style="color:#000000">(name = </span><span style="color:#2a00ff">&quot;VERSION&quot;</span><span style="color:#000000">)</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">protected</span><span style="color:#000000"> Long </span><span style="color:#0000c0">version</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// manufacturers</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// fabricantes</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> AbstractEntity() {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    }</span></span>
@@ -1209,7 +1211,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">this</span><span style="color:#000000">.</span><span style="color:#0000c0">version</span><span style="color:#000000"> = </span><span style="color:#6a3e3e">version</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    }</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// redefine [equals] and [hashcode]</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// redefinir [equals] y [hashcode]</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@Override</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">int</span><span style="color:#000000"> hashCode() {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">return</span><span style="color:#000000"> (</span><span style="color:#0000c0">id</span><span style="color:#000000"> != </span><span style="font-weight:bold;color:#7f0055">null</span><span style="color:#000000"> ? </span><span style="color:#0000c0">id</span><span style="color:#000000">.hashCode() : 0);</span></span></span>
@@ -1229,7 +1231,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">return</span><span style="color:#000000"> </span><span style="color:#0000c0">id</span><span style="color:#000000"> != </span><span style="font-weight:bold;color:#7f0055">null</span><span style="color:#000000"> &amp;&amp; </span><span style="font-weight:bold;color:#7f0055">this</span><span style="color:#000000">.</span><span style="color:#0000c0">id</span><span style="color:#000000"> == </span><span style="color:#6a3e3e">other</span><span style="color:#000000">.</span><span style="color:#0000c0">id</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    }</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// signature jSON</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// firma jSON</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> String toString() {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        ObjectMapper </span><span style="color:#6a3e3e">mapper</span><span style="color:#000000"> = </span><span style="font-weight:bold;color:#7f0055">new</span><span style="color:#000000"> ObjectMapper();</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">try</span><span style="color:#000000"> {</span></span></span>
@@ -1240,48 +1242,48 @@
 <span class="odt-code-line"><span class="odt-code-line-content">        }</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    }</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// getters and setters</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// getters y setters</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">...</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
-<p>Esta es la clase descrita en <a href="#refheading1961161114084373"><u><span style="color: #0563c1">la sección 11.3.5.2</span></u></a>, sin los filtros JSON. Aquí, las tablas [CONF] y [LISTES] no están vinculadas por una relación de clave externa. Sin embargo, es la existencia de dicha relación con el modo [carga diferida] lo que hace necesarios los filtros JSON.</p>
-<p><a id="refheading226875658489731"></a></p>
-<h3 id="1243-la-clase-electionsconfig">12.4.3. <span style="color: #4f81bd">La clase [ElectionsConfig]</span></h3>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000D10000005A7D0E977A.png" width="146" height="63" style="display:inline-block; margin:4px;width:3.87cm;height:1.667cm;" class="odt-zoomable" data-zoom-src="images/10000000000000D10000005A7D0E977A.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p>Esta es la clase descrita en el apartado<a href="cours-gestion-de-bases-de-datos-relacionales-con-spring-data.html#refheading1961161114084373"><u><span style="color: #0563c1"> 11.3.5.2</span></u></a>, sin los filtros jSON. De hecho, aquí las tablas [CONF] y [LISTES] no están vinculadas por una relación de clave externa. Sin embargo, es la existencia de dicha relación con el modo [lazy loading] lo que hace necesarios los filtros jSON.</p>
+<p><span id="refheading226875658489731" name="refheading226875658489731" class="odt-bookmark-anchor"></span></p>
+<h3 id="1243-la-clase-electionsconfig">12.4.3. <span style="color: #4f81bd"><strong>La clase [ElectionsConfig]</strong></span></h3>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000D10000005A7D0E977A.png" width="146" height="63" style="display:inline-block; margin:4px;width:3.87cm;height:1.667cm;" class="odt-zoomable" data-zoom-src="images/10000000000000D10000005A7D0E977A.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>La clase [ElectionsConfig] es la entidad JPA asociada a la tabla [CONF];</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
-<p><strong>Tarea</strong>: Implementar la clase [ElectionsConfig].</p>
+<p><strong>Tarea</strong>: cree la clase [ElectionsConfig].</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
 
-<p><a id="refheading226895658489731"></a></p>
-<h3 id="1244-la-clase-voterlist">12.4.4. <span style="color: #4f81bd">La clase [VoterList]</span></h3>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000D10000005AF6FF4979.png" width="146" height="63" style="display:inline-block; margin:4px;width:3.87cm;height:1.667cm;" class="odt-zoomable" data-zoom-src="images/10000000000000D10000005AF6FF4979.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p><span id="refheading226895658489731" name="refheading226895658489731" class="odt-bookmark-anchor"></span></p>
+<h3 id="1244-la-clase-listeelectorale">12.4.4. <span style="color: #4f81bd">La clase [ListeElectorale]</span></h3>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000D10000005AF6FF4979.png" width="146" height="63" style="display:inline-block; margin:4px;width:3.87cm;height:1.667cm;" class="odt-zoomable" data-zoom-src="images/10000000000000D10000005AF6FF4979.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>La clase [VoterList] es la entidad JPA asociada a la tabla [LISTS];</p>
+<p>La clase [ListeElectorale] es la entidad JPA asociada a la tabla [LISTES];</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
-<p><strong>Tarea</strong>: Implementa la clase [VoterList].</p>
+<p><strong>Tarea</strong>: cree la clase [ListeElectorale].</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
 
-<p><a id="refheading2192662014630537"></a></p>
+<p><span id="refheading2192662014630537" name="refheading2192662014630537" class="odt-bookmark-anchor"></span></p>
 <h2 id="125-la-capa-spring-data">12.5. <span style="color: #4f81bd">La capa [Spring Data]</span></h2>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000431000000F69F141679.png" width="537" height="123" style="display:inline-block; margin:4px;width:14.196cm;height:3.254cm;" class="odt-zoomable" data-zoom-src="images/1000000000000431000000F69F141679.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000431000000F69F141679.png" width="537" height="123" style="display:inline-block; margin:4px;width:14.196cm;height:3.254cm;" class="odt-zoomable" data-zoom-src="images/1000000000000431000000F69F141679.png" /></td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000ED00000037CB1E9CA7.png" width="166" height="39" style="display:inline-block; margin:4px;width:4.39cm;height:1.02cm;" class="odt-zoomable" data-zoom-src="images/10000000000000ED00000037CB1E9CA7.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000ED00000037CB1E9CA7.png" width="166" height="39" style="display:inline-block; margin:4px;width:4.39cm;height:1.02cm;" class="odt-zoomable" data-zoom-src="images/10000000000000ED00000037CB1E9CA7.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
-<p><strong>Tarea</strong>: Escribe las dos interfaces [Spring Data] para gestionar las dos tablas [CONF] y [LISTES];</p>
+<p><strong>Tarea</strong>: escriba las dos interfaces de [Spring Data] para gestionar las dos tablas [CONF] y [LISTES];</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
 
-<p><a id="refheading2192682014630537"></a></p>
-<h2 id="126-la-capa-dao">12.6. <span style="color: #4f81bd">La capa [DAO]</span></h2>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000042A000000F51E420498.png" width="533" height="122" style="display:inline-block; margin:4px;width:14.102cm;height:3.24cm;" class="odt-zoomable" data-zoom-src="images/100000000000042A000000F51E420498.png" /></td></tr></table>
+<p><span id="refheading2192682014630537" name="refheading2192682014630537" class="odt-bookmark-anchor"></span></p>
+<h2 id="126-la-capa-dao">12.6. <span style="color: #4f81bd"><strong>La capa [DAO]</strong></span></h2>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000042A000000F51E420498.png" width="533" height="122" style="display:inline-block; margin:4px;width:14.102cm;height:3.24cm;" class="odt-zoomable" data-zoom-src="images/100000000000042A000000F51E420498.png" /></td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000B3000000391442EF3F.png" width="125" height="40" style="display:inline-block; margin:4px;width:3.311cm;height:1.055cm;" class="odt-zoomable" data-zoom-src="images/10000000000000B3000000391442EF3F.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000B3000000391442EF3F.png" width="125" height="40" style="display:inline-block; margin:4px;width:3.311cm;height:1.055cm;" class="odt-zoomable" data-zoom-src="images/10000000000000B3000000391442EF3F.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>La interfaz [IElectionsDao] de la capa [DAO] es la siguiente:</p>
-<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-sql">
+<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> dao.service;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> dao.entities.ElectionsConfig;</span></span></span>
@@ -1289,38 +1291,38 @@
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">interface</span><span style="color:#000000"> IElectionsDao {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// election configuration</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// configuración electoral</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> ElectionsConfig getElectionsConfig();</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// candidate lists</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// listas de candidatos</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> ListeElectorale[] getListesElectorales();</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// updating candidate lists</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// actualización de las listas de candidatos</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">void</span><span style="color:#000000"> setListesElectorales(ListeElectorale[] </span><span style="color:#6a3e3e">listesElectorales</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
-<p><strong>Tarea</strong>: Escribe la implementación [ElectionsDaoJpa] de la interfaz [IElectionsDao].</p>
+<p><strong>Tarea</strong>: escriba la implementación [ElectionsDaoJpa] de la interfaz [IElectionsDao].</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
 
-<p><a id="refheading2192702014630537"></a></p>
+<p><span id="refheading2192702014630537" name="refheading2192702014630537" class="odt-bookmark-anchor"></span></p>
 <h2 id="127-configuracion-del-proyecto-spring">12.7. <span style="color: #4f81bd">Configuración del proyecto Spring</span></h2>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000AA00000029F949FB68.png" width="119" height="29" style="display:inline-block; margin:4px;width:3.15cm;height:0.76cm;" class="odt-zoomable" data-zoom-src="images/10000000000000AA00000029F949FB68.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000AA00000029F949FB68.png" width="119" height="29" style="display:inline-block; margin:4px;width:3.15cm;height:0.76cm;" class="odt-zoomable" data-zoom-src="images/10000000000000AA00000029F949FB68.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>La clase [DaoConfig] configura el proyecto Spring.</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
-<p><strong>Tarea</strong>: Escribe la clase [DaoConfig]</p>
+<p><strong>Tarea</strong>: escriba la clase [DaoConfig]</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
 
-<p><a id="refheading2192722014630537"></a></p>
+<p><span id="refheading2192722014630537" name="refheading2192722014630537" class="odt-bookmark-anchor"></span></p>
 <h2 id="128-la-capa-console">12.8. <span style="color: #4f81bd">La capa [console]</span></h2>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000042A000000F926691E50.png" width="533" height="124" style="display:inline-block; margin:4px;width:14.102cm;height:3.293cm;" class="odt-zoomable" data-zoom-src="images/100000000000042A000000F926691E50.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000042A000000F926691E50.png" width="533" height="124" style="display:inline-block; margin:4px;width:14.102cm;height:3.293cm;" class="odt-zoomable" data-zoom-src="images/100000000000042A000000F926691E50.png" /></td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000C60000005F76FEDE2E.png" width="139" height="67" style="display:inline-block; margin:4px;width:3.671cm;height:1.76cm;" class="odt-zoomable" data-zoom-src="images/10000000000000C60000005F76FEDE2E.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000C60000005F76FEDE2E.png" width="139" height="67" style="display:inline-block; margin:4px;width:3.671cm;height:1.76cm;" class="odt-zoomable" data-zoom-src="images/10000000000000C60000005F76FEDE2E.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>La clase [Main] es la siguiente clase ejecutable:</p>
-<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-sql">
+<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> dao.console;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.context.annotation.AnnotationConfigApplicationContext;</span></span></span>
@@ -1332,33 +1334,33 @@
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000"> Main {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// data source</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// fuente de datos</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">static</span><span style="color:#000000"> IElectionsDao </span><span style="font-style:italic;color:#0000c0">dao</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">static</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">void</span><span style="color:#000000"> main(String[] </span><span style="color:#6a3e3e">args</span><span style="color:#000000">) {</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// spring context retrieval</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// recuperación del contexto de Spring</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        AnnotationConfigApplicationContext </span><span style="color:#6a3e3e">ctx</span><span style="color:#000000"> = </span><span style="font-weight:bold;color:#7f0055">new</span><span style="color:#000000"> AnnotationConfigApplicationContext(AppConfig.</span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000">);</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// data source recovery</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// recuperación de la fuente de datos</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-style:italic;color:#0000c0">dao</span><span style="color:#000000"> = </span><span style="color:#6a3e3e">ctx</span><span style="color:#000000">.getBean(IElectionsDao.</span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000">);</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// contents of both tables</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// contenido de las dos tablas</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        ElectionsConfig </span><span style="color:#6a3e3e">electionsConfig</span><span style="color:#000000"> = </span><span style="font-style:italic;color:#0000c0">dao</span><span style="color:#000000">.getElectionsConfig();</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        ListeElectorale[] </span><span style="color:#6a3e3e">listes</span><span style="color:#000000"> = </span><span style="font-style:italic;color:#0000c0">dao</span><span style="color:#000000">.getListesElectorales();</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// display</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// mostrar</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        System.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">out</span><span style="color:#000000">.println(String.</span><span style="font-style:italic;color:#000000">format</span><span style="color:#000000">(</span><span style="color:#2a00ff">&quot;Nombre de sièges à pourvoir : %d&quot;</span><span style="color:#000000">, </span><span style="color:#6a3e3e">electionsConfig</span><span style="color:#000000">.getNbSiegesAPourvoir()));</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        System.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">out</span><span style="color:#000000">.println(String.</span><span style="font-style:italic;color:#000000">format</span><span style="color:#000000">(</span><span style="color:#2a00ff">&quot;Seuil électoral : %5.2f&quot;</span><span style="color:#000000">, </span><span style="color:#6a3e3e">electionsConfig</span><span style="color:#000000">.getSeuilElectoral()));</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        System.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">out</span><span style="color:#000000">.println(</span><span style="color:#2a00ff">&quot;Listes candidates----------------&quot;</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">for</span><span style="color:#000000"> (ListeElectorale </span><span style="color:#6a3e3e">liste</span><span style="color:#000000"> : </span><span style="color:#6a3e3e">listes</span><span style="color:#000000">) {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            System.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">out</span><span style="color:#000000">.println(</span><span style="color:#6a3e3e">liste</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        }</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// closing Spring context</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// cierre del contexto Spring</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#6a3e3e">ctx</span><span style="color:#000000">.close();</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    }</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
-<p>La clase [Test01] es una prueba JUnit:</p>
-<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-csharp">
+<p>La clase [Test01] es una prueba de JUnit:</p>
+<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> dao.tests;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.junit.Assert;</span></span></span>
@@ -1378,16 +1380,16 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#646464">@RunWith</span><span style="color:#000000">(SpringJUnit4ClassRunner.</span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000">)</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000"> Test01 {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// layer [DAO]</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// capa [DAO]</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@Autowired</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> IElectionsDao </span><span style="color:#0000c0">electionsDao</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@Before</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">void</span><span style="color:#000000"> init() {</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// the table is cleaned [LISTES]</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// competing lists</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// limpiamos la tabla [LISTES]</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// listas en competición</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        ListeElectorale[] </span><span style="color:#6a3e3e">listes</span><span style="color:#000000"> = </span><span style="color:#0000c0">electionsDao</span><span style="color:#000000">.getListesElectorales();</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// set votes and seats to 0 and eliminate false</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// los votos y los escaños se fijan en 0 y se eliminan en falso</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">int</span><span style="color:#000000"> </span><span style="color:#6a3e3e">voix</span><span style="color:#000000"> = 0;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">int</span><span style="color:#000000"> </span><span style="color:#6a3e3e">sièges</span><span style="color:#000000"> = 0;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">boolean</span><span style="color:#000000"> </span><span style="color:#6a3e3e">elimine</span><span style="color:#000000"> = </span><span style="font-weight:bold;color:#7f0055">false</span><span style="color:#000000">;</span></span></span>
@@ -1396,23 +1398,23 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#6a3e3e">liste</span><span style="color:#000000">.setSieges(</span><span style="color:#6a3e3e">sièges</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#6a3e3e">liste</span><span style="color:#000000">.setElimine(</span><span style="color:#6a3e3e">elimine</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        }</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// we make this data persistent using the [dao] layer</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// hacemos que estos datos sean persistentes utilizando la capa [dao]</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#0000c0">electionsDao</span><span style="color:#000000">.setListesElectorales(</span><span style="color:#6a3e3e">listes</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    }</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@Test</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">void</span><span style="color:#000000"> testElections01() {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        System.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">out</span><span style="color:#000000">.println(</span><span style="color:#2a00ff">&quot;testElections01-------------------------------------&quot;</span><span style="color:#000000">);</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// election configuration recovery</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// recuperación de la configuración electoral</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        ElectionsConfig </span><span style="color:#6a3e3e">electionsConfig</span><span style="color:#000000"> = </span><span style="color:#0000c0">electionsDao</span><span style="color:#000000">.getElectionsConfig();</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">int</span><span style="color:#000000"> </span><span style="color:#6a3e3e">nbSiegesAPourvoir</span><span style="color:#000000"> = </span><span style="color:#6a3e3e">electionsConfig</span><span style="color:#000000">.getNbSiegesAPourvoir();</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">double</span><span style="color:#000000"> </span><span style="color:#6a3e3e">seuilElectoral</span><span style="color:#000000"> = </span><span style="color:#6a3e3e">electionsConfig</span><span style="color:#000000">.getSeuilElectoral();</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        Assert.</span><span style="font-style:italic;color:#000000">assertEquals</span><span style="color:#000000">(6, </span><span style="color:#6a3e3e">nbSiegesAPourvoir</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        Assert.</span><span style="font-style:italic;color:#000000">assertEquals</span><span style="color:#000000">(0.05, </span><span style="color:#6a3e3e">seuilElectoral</span><span style="color:#000000">, 1E-6);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// competing lists</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// listas en competición</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        ListeElectorale[] </span><span style="color:#6a3e3e">listes</span><span style="color:#000000"> = </span><span style="color:#0000c0">electionsDao</span><span style="color:#000000">.getListesElectorales();</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// display read values</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// visualizar valores leídos</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        System.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">out</span><span style="color:#000000">.println(</span><span style="color:#2a00ff">&quot;Nombre de sièges à pourvoir : &quot;</span><span style="color:#000000"> + </span><span style="color:#6a3e3e">nbSiegesAPourvoir</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        System.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">out</span><span style="color:#000000">.println(</span><span style="color:#2a00ff">&quot;Seuil électoral : &quot;</span><span style="color:#000000"> + </span><span style="color:#6a3e3e">seuilElectoral</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        System.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">out</span><span style="color:#000000">.println(</span><span style="color:#2a00ff">&quot;Listes en compétition ---------------------&quot;</span><span style="color:#000000">);</span></span></span>
@@ -1420,7 +1422,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            System.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">out</span><span style="color:#000000">.println(</span><span style="color:#6a3e3e">listes</span><span style="color:#000000">[</span><span style="color:#6a3e3e">i</span><span style="color:#000000">]);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        }</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// votes and seats are allocated to lists</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// los votos y escaños se asignan a las listas</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">int</span><span style="color:#000000"> </span><span style="color:#6a3e3e">voix</span><span style="color:#000000"> = 0;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">int</span><span style="color:#000000"> </span><span style="color:#6a3e3e">sièges</span><span style="color:#000000"> = 0;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">boolean</span><span style="color:#000000"> </span><span style="color:#6a3e3e">elimine</span><span style="color:#000000"> = </span><span style="font-weight:bold;color:#7f0055">false</span><span style="color:#000000">;</span></span></span>
@@ -1433,12 +1435,12 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#6a3e3e">elimine</span><span style="color:#000000"> = !</span><span style="color:#6a3e3e">elimine</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        }</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// we make this data persistent using the [dao] layer</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// hacemos que estos datos sean persistentes utilizando la capa [dao]</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#0000c0">electionsDao</span><span style="color:#000000">.setListesElectorales(</span><span style="color:#6a3e3e">listes</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// data re-reading</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// releemos los datos</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        ListeElectorale[] </span><span style="color:#6a3e3e">listesElectorales2</span><span style="color:#000000"> = </span><span style="color:#0000c0">electionsDao</span><span style="color:#000000">.getListesElectorales();</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// check data read</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// comprobamos los datos leídos</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        Assert.</span><span style="font-style:italic;color:#000000">assertEquals</span><span style="color:#000000">(7, </span><span style="color:#6a3e3e">listesElectorales2</span><span style="color:#000000">.</span><span style="color:#0000c0">length</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#6a3e3e">voix</span><span style="color:#000000"> = 0;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#6a3e3e">sièges</span><span style="color:#000000"> = 0;</span></span></span>
@@ -1460,12 +1462,12 @@
 </code></pre></div>
 
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
-<p><strong>Tarea</strong>: Ejecuta las pruebas [de consola] y [JUnit] en tu capa [DAO].</p>
+<p><strong>Tarea</strong>: ejecute las pruebas [console] y [JUnit] en su capa [DAO].</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
 
-<p><a id="refheading165821515544210"></a></p>
+<p><span id="refheading165821515544210" name="refheading165821515544210" class="odt-bookmark-anchor"></span></p>
 <h2 id="129-generacion-del-archivo-maven-del-proyecto">12.9. <span style="color: #4f81bd">Generación del archivo Maven del proyecto</span></h2>
-<p>Siguiendo el ejemplo de <a href="#refheading165801515544210"><u><span style="color: #0563c1">la sección 11.3.12</span></u></a>, genera el archivo Maven del proyecto.</p>
+<p>Siguiendo el ejemplo del apartado<a href="cours-gestion-de-bases-de-datos-relacionales-con-spring-data.html#refheading165801515544210"><u><span style="color: #0563c1"> 11.3.12</span></u></a>, genere el archivo Maven del proyecto.</p>
 
 
 
