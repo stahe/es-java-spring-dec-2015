@@ -2,94 +2,94 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://stahe.github.io/es-java-spring-dec-2015/index.html</loc>
-         <lastmod>2026-06-05</lastmod>
+         <lastmod>2026-06-24</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/es-java-spring-dec-2015/anexos.html</loc>
-         <lastmod>2026-06-05</lastmod>
+         <lastmod>2026-06-24</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/es-java-spring-dec-2015/conclusion.html</loc>
-         <lastmod>2026-06-05</lastmod>
+         <lastmod>2026-06-24</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/es-java-spring-dec-2015/cours-exponer-una-base-de-datos-en-la-web-con-spring-mvc.html</loc>
-         <lastmod>2026-06-05</lastmod>
+         <lastmod>2026-06-24</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/es-java-spring-dec-2015/cours-gestion-de-accesos-entre-dominios.html</loc>
-         <lastmod>2026-06-05</lastmod>
+         <lastmod>2026-06-24</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/es-java-spring-dec-2015/cours-gestion-de-bases-de-datos-relacionales-con-spring-data.html</loc>
-         <lastmod>2026-06-05</lastmod>
+         <lastmod>2026-06-24</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/es-java-spring-dec-2015/cours-introduccion-a-api-jdbc.html</loc>
-         <lastmod>2026-06-05</lastmod>
+         <lastmod>2026-06-24</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/es-java-spring-dec-2015/cours-introduccion-al-framework-spring.html</loc>
-         <lastmod>2026-06-05</lastmod>
+         <lastmod>2026-06-24</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/es-java-spring-dec-2015/cours-proteger-el-acceso-a-un-servicio-web-con-spring-security.html</loc>
-         <lastmod>2026-06-05</lastmod>
+         <lastmod>2026-06-24</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/es-java-spring-dec-2015/introduccion.html</loc>
-         <lastmod>2026-06-05</lastmod>
+         <lastmod>2026-06-24</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/es-java-spring-dec-2015/programacion-asincrona-con-rxjava.html</loc>
-         <lastmod>2026-06-05</lastmod>
+         <lastmod>2026-06-24</lastmod>
     </url>
     <url>
-         <loc>https://stahe.github.io/es-java-spring-dec-2015/td-arquitecturas-en-capas.html</loc>
-         <lastmod>2026-06-05</lastmod>
+         <loc>https://stahe.github.io/es-java-spring-dec-2015/td-arquitecturas-por-capas.html</loc>
+         <lastmod>2026-06-24</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/es-java-spring-dec-2015/td-clases.html</loc>
-         <lastmod>2026-06-05</lastmod>
+         <lastmod>2026-06-24</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/es-java-spring-dec-2015/td-creacion-de-un-cliente-para-el-servicio-web.html</loc>
-         <lastmod>2026-06-05</lastmod>
+         <lastmod>2026-06-24</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/es-java-spring-dec-2015/td-el-problema.html</loc>
-         <lastmod>2026-06-05</lastmod>
+         <lastmod>2026-06-24</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/es-java-spring-dec-2015/td-elecciones-con-solicitudes-entre-dominios.html</loc>
-         <lastmod>2026-06-05</lastmod>
+         <lastmod>2026-06-24</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/es-java-spring-dec-2015/td-exposicion-en-la-web-de-la-capa-metier.html</loc>
-         <lastmod>2026-06-05</lastmod>
+         <lastmod>2026-06-24</lastmod>
     </url>
     <url>
-         <loc>https://stahe.github.io/es-java-spring-dec-2015/td-implementacion-de-la-capa-dao-de-td-con-api-jdbc.html</loc>
-         <lastmod>2026-06-05</lastmod>
+         <loc>https://stahe.github.io/es-java-spring-dec-2015/td-implementacion-de-la-capa-dao-de-td-con-api-y-jdbc.html</loc>
+         <lastmod>2026-06-24</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/es-java-spring-dec-2015/td-implementacion-de-la-capa-dao-de-td-con-spring-data.html</loc>
-         <lastmod>2026-06-05</lastmod>
+         <lastmod>2026-06-24</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/es-java-spring-dec-2015/td-implementacion-de-la-capa-ui-con-un-programa-de-consola.html</loc>
-         <lastmod>2026-06-05</lastmod>
+         <lastmod>2026-06-24</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/es-java-spring-dec-2015/td-implementacion-de-la-capa-ui-con-una-interfaz-swing-de-tipo--.html</loc>
-         <lastmod>2026-06-05</lastmod>
+         <lastmod>2026-06-24</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/es-java-spring-dec-2015/td-la-capa-metier.html</loc>
-         <lastmod>2026-06-05</lastmod>
+         <lastmod>2026-06-24</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/es-java-spring-dec-2015/td-seguridad-del-servidor-web--json-de-las-elecciones.html</loc>
-         <lastmod>2026-06-05</lastmod>
+         <lastmod>2026-06-24</lastmod>
     </url>
 </urlset>
